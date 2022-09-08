@@ -13,4 +13,7 @@ jMeterRemoreSlaveSTart s 1492
 
 "variable linea" es lo que va a buscar en el .bat que ejecuta el jmeter
 
+el .bat es el que va a ejecutar el jmeter para que levante en slavemode 
+este va a contener el path al jmx y donde estan los archivos de propiedades
+
 
