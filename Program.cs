@@ -151,6 +151,9 @@ namespace jMeterRemoteSlaveStart
 
         private static void ObSocket_Event_Socket(EventParameters eventParameters)
         {
+
+            Console.WriteLine(eventParameters.GetData);
+
             switch (eventParameters.GetEventType)
             {
                 case EventParameters.EventType.ERROR:
